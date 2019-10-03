@@ -24,7 +24,7 @@ def run_guessing_game
     random_number = rand(1..6)
     user_input = gets.chomp
   end
-
+binding.pry
   if user_input == "exit"
   puts "Goodbye!"
   end
